@@ -1,0 +1,16 @@
+{
+  "name": "extension-forced-colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  }
+}
