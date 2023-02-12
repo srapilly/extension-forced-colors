@@ -9,7 +9,8 @@
   ],
   "host_permissions": [
     "https://*/*",
-    "http://*/*"
+    "http://*/*",
+    "file://*/*"
   ],
   "action": {
     "default_title": "Enable forced colors emulation"

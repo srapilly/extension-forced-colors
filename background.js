@@ -14,18 +14,13 @@ async function forcedColorEnabled(tabId) {
     return result
 }
 
-async function notAttached(tabId) {
-    return !(await chrome.debugger.getTargets())
-        .some(object => object.tabId === tabId && object.attached)
-}
-
 chrome.action.onClicked.addListener(async (tab) => {
     const tabId = tab.id
     const debugee = {tabId: tabId}
 
-    if (await notAttached(tabId)) {
+    try {
         await chrome.debugger.attach(debugee, "1.3")
-    }
+    } catch { }
 
     if (await forcedColorEnabled(tabId)) {
         await setForcedColors(debugee, 'none')
