@@ -7,7 +7,10 @@ test("loads extension", async ({ page, toggleExtension }) => {
   await expect(page).toHaveTitle("Test");
 
   await toggleExtension();
-  await expect(page).toHaveScreenshot("enabled.png");
+  await expect(page).toHaveScreenshot("enabled_dark.png");
+
+  await toggleExtension();
+  await expect(page).toHaveScreenshot("enabled_light.png");
 
   await toggleExtension();
   await expect(page).toHaveScreenshot("disabled.png");
