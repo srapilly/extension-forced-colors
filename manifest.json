@@ -3,15 +3,8 @@
   "name": "Forced colors emulation",
   "description": "Enable and disable forced colors emulation quickly !",
   "version": "1.0",
-  "permissions": [
-    "debugger",
-    "scripting"
-  ],
-  "host_permissions": [
-    "https://*/*",
-    "http://*/*",
-    "file://*/*"
-  ],
+  "permissions": ["debugger", "scripting"],
+  "host_permissions": ["https://*/*", "http://*/*", "file://*/*"],
   "action": {
     "default_title": "Enable forced colors emulation"
   },
