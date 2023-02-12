@@ -4,7 +4,12 @@
   "description": "Enable and disable forced colors emulation quickly !",
   "version": "1.0",
   "permissions": [
-    "debugger"
+    "debugger",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
   ],
   "action": {
     "default_title": "Enable forced colors emulation"
