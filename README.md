@@ -10,6 +10,10 @@ When clicking on the extension icon, it will cycle between 3 modes:
 - Forced color with light theme
 - Nothing
 
+
+https://user-images.githubusercontent.com/85184231/218323476-073186a4-4d00-451f-a300-074d4f66115e.mov
+
+
 It's not in the chrome store for now, you can load it with the [developer mode](https://developer.chrome.com/docs/extensions/mv2/getstarted/#manifest)
 
 ## Testing
