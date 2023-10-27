@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.30.0",
+    "@playwright/test": "^1.39.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.1",
     "prettier": "2.8.4"
